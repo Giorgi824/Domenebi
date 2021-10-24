@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Conv_TKT-Regular';
+	src: url('fonts/TKT-Regular.eot');
+	src: local('☺'), url('fonts/TKT-Regular.woff') format('woff'), url('fonts/TKT-Regular.ttf') format('truetype'), url('fonts/TKT-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_TKT-bold';
+	src: url('fonts/TKT-bold.eot');
+	src: local('☺'), url('fonts/TKT-bold.woff') format('woff'), url('fonts/TKT-bold.ttf') format('truetype'), url('fonts/TKT-bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_TKT-Medium';
+	src: url('fonts/TKT-Medium.eot');
+	src: local('☺'), url('fonts/TKT-Medium.woff') format('woff'), url('fonts/TKT-Medium.ttf') format('truetype'), url('fonts/TKT-Medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

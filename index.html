@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domenebi</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/rSlider.min.css">
+    <link rel="stylesheet" href="css/common.scss/common.css">
+    <script src="js/rSlider.min.js" defer></script>
+    <script src="js/range-slider.js" defer></script>
+    <script src="js/svg.js" defer></script>
+    <script src="js/general.js" defer></script>
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <a href="index.html" class="logo"></a>
+                <div class="header-items">
+                    <div class="bell-svg"></div>
+                    <div class="basket-svg"></div>
+                    <div class="user-svg"><span>kancha co.</span></div>
+                    <div class="flag-svg"></div>
+                </div>
+            </div>
+        </div>
+        <div class="header-menu">
+            <div>
+                <ul>
+                    <li><a href="#">დომენები</a></li>
+                    <li><a href="#">ტრანსფერი</a></li>
+                    <li><a href="#">ჰოსტინგი</a></li>
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">ვებგვერდი</a></li>
+                    <li><a href="#">დომენის მარკეტი</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">ჩვენს შესახებ</a></li>
+                    <li><a href="#">ფასები</a></li>
+                    <li><a href="#">ბლოგი</a></li>
+                    <li><a href="#">დახმარება</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="full-background" style="background-image: url('img/background.png');">
+        <h1>გაყიდე და იყიდე დომენი მარტივად</h1>
+    </div>
+
+    <main>
+        <div class="domain-header">
+            <div>
+                <div class="all-doms">
+                    <p>დომენები მარკეტზე:</p>
+                    <span>703</span>
+                </div>
+                <div class="dom-sorting">
+                    <span>სორტირება:</span>
+                    <ul>
+                        <li class="active-sort added-date">დამატების თარიღით</li>
+                        <li class="expire-date">ვადის ამოწურვით</li>
+                        <li class="due-price">ფასით</li>
+                        <li class="due-alph">ანბანით</li>
+                    </ul>
+                </div>
+                <a href="#">როგორ გავყიდო დომენი?</a>
+            </div>
+        </div>
+        <div class="domain-body">
+            <div>
+                <div class="lf-side" data-search-text="ძიება" data-filter-text="ფილტრი">
+                    <form>
+                        <input type="text" placeholder="სახელით ძიება">
+                        <div class="container">
+                            <div class="prod-tl">ფასი</div>
+                            <div class="slider-container-one">
+                                <div class="two-inputs">
+                                    <input type="number" placeholder="from" class="lf-val" min="0" max="50000">
+                                    <input type="number" placeholder="to" class="rg-val" min="0" max="50000">
+                                </div>
+                                <input type="text" id="slider3" class="slider" />
+                            </div>
+                            <div class="prod-tl">სიმბოლოების რაოდონობა</div>
+                            <div class="slider-container-two">
+                                <div class="two-inputs">
+                                    <input type="number" placeholder="from" class="lf-val" min="0" max="26">
+                                    <input type="number" placeholder="to" class="rg-val" min="0" max="26">
+                                </div>
+                                <input type="text" id="slider4" class="slider" />
+                            </div>
+                        </div>
+                        <!-- <div class="item-price">
+                            <span>ფასი</span>
+                            
+                        </div> -->
+                        <div class="prod-categ prod-checkboxes">
+                            <div class="prod-tl">კატეგორიები</div>
+                        </div>
+                        <div class="prod-dom-zone prod-checkboxes">
+                            <div class="prod-tl">დომენის ზონა</div>
+                        </div>
+                    </form>
+                </div>
+                <div class="rg-side">
+                    <div class="rg-side-list" data-add="დამატება" data-added="კალათაშია" data-currency="2.8">
+                        
+                    </div>
+                    <div class="not-found">
+                        <div>
+                            <span class="found-svg"></span>
+                            <div>დომენი ვერ მოიძებნა</div>
+                            <p>მითითებული პარამეტრებით დომენების მარკეტში შედეგები ვერ მოიძებნა, შეცვალეთ ძიების პარამეტრები და ცადეთ თავიდან</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
